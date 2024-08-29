@@ -12,7 +12,7 @@
   overflow: hidden;
 }
 
-.aside-container {
+aside {
   padding: 3.2rem;
   border-radius: 1.2rem;
   background: url(../assets/Background.png) no-repeat center center / cover;
@@ -37,4 +37,10 @@ main {
   padding-block: 8rem;
   border-radius: 1.2rem;
   background-color: var(--shape-body);
+
+  & .main-container {
+    max-width: 56rem;
+    margin-inline: auto;
+    color: var(--text-heading);
+  }
 }

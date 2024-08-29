@@ -8,14 +8,59 @@
 </head>
 <body>
   <div id="app">
-    <div class="aside-container">
+    <aside>
       <img src="./assets/logo.svg" alt="Logo">
       <h1>Festivite</h1>
       <p>Crie um convite digital para o seu evento</p>
-    </div>
+    </aside>
     <main>
       <div class="main-container">
-        
+        <h2>Crie seu convite</h2>
+
+        <fieldset>
+          <legend>
+            <img src="assets/icons/calendar.svg" alt="">
+            Sobre o evento
+          </legend>
+          <div class="input">
+            <div class="input-wrapper">
+              <label for="">Título</label>
+              <input type="text" placeholder="Nome do evento">
+            </div>
+            <div class="input-wrapper">
+              <label for="">Início</label>
+              <input type="date">
+            </div>
+            <div class="input-wrapper">
+              <label for="">Fim</label>
+              <input type="date">
+            </div>
+            <div class="input-wrapper">
+              <label for="">Tipo</label>
+              <div class="checkbox-container">
+                <div class="checkbox-wrapper">
+                  <input type="checkbox" name="present" id="present">
+                  <img src="./assets/icons/building-2.svg" alt="Icone de prédio">
+                  <label for="present">Presencial</label>
+                </div>
+                <div class="checkbox-wrapper">
+                  <input type="checkbox" name="online" id="online">
+                  <img src="./assets/icons/video.svg" alt="Icone de câmera">
+                  <label for="online">Online</label>
+                </div>
+              </div>
+            </div>
+            <div class="input-wrapper">
+              <label for="url">Local</label>
+              <input type="url" name="url" id="url" placeholder="Link ou endereço">
+            </div>
+            <div class="input-wrapper">
+              <label for="description">Descrição</label>
+              <textarea name="description" id="description" cols="10" rows="5" placeholder="Escreva sobre os detalhes do evento"></textarea>
+            </div>
+          </div>
+          
+        </fieldset>
       </div>
     </main>
   </div>

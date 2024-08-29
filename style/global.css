@@ -65,6 +65,7 @@ body {
   background-color: var(--shape-background);
 }
 
-body, input, button {
+body, input, button, textarea {
   font-size: 1.6rem;
+  font-family: var(--ff-open-sans);
 }
