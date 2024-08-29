@@ -1,0 +1,40 @@
+#app {
+  height: 100vh;
+  max-width: 128rem;
+  margin-inline: auto;
+
+  padding: 2rem;
+  
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 40rem auto;
+
+  overflow: hidden;
+}
+
+.aside-container {
+  padding: 3.2rem;
+  border-radius: 1.2rem;
+  background: url(../assets/Background.png) no-repeat center center / cover;
+
+  & img {
+    width: 4.5rem;
+  }
+
+  & h1 {
+    padding-block: 1.6rem 1.2rem;
+    font: var(--text-logo);
+    color: var(--pink);
+  }
+
+  & p {
+    font: var(--body-md);  
+    color: var(--text-heading);
+  }
+}
+
+main {
+  padding-block: 8rem;
+  border-radius: 1.2rem;
+  background-color: var(--shape-body);
+}

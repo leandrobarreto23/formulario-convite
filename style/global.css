@@ -27,7 +27,7 @@
 
   /* shape */
   --shape-background: #131516;
-  --shape-body: shape-body;
+  --shape-body: #212427;
   --shape-button: #2D3136;
   --shape-hover: #383D42;
 
@@ -36,20 +36,22 @@
   --text-heading: #F9F9F9;
 
   /* typograph */
+  font-size: 62.5%;
+
   --ff-baloo: "Baloo 2", sans-serif;
   --ff-open-sans: "Open Sans", sans-serif;
   --ff-leckerli-one: "Leckerli One", cursive;
 
-  --text-logo: 400 4rem/1 var(--ff-leckerli-one); 
+  --text-logo: 400 4rem/1 var(--ff-leckerli-one);
 
   --heading-md: 700 2.8rem/1 var(--ff-baloo);
   --heading-sm: 700 1.8rem/1 var(--ff-baloo);
 
   /* --text: 400 1.6rem/1.5 var(--font-family); */
 
-  --body-md: 500 1.6rem/1 var(--ff-open-sans);
-  --body-sm: 500 1.4rem/1 var(--ff-open-sans);
-  --body-xs: 500 1.2rem/1 var(--ff-open-sans);
+  --body-md: 400 1.6rem/1 var(--ff-open-sans);
+  --body-sm: 400 1.4rem/1 var(--ff-open-sans);
+  --body-xs: 400 1.2rem/1 var(--ff-open-sans);
 
 }
 
@@ -57,4 +59,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: var(--shape-background);
+}
+
+body, input, button {
+  font-size: 1.6rem;
 }
