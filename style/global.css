@@ -67,5 +67,12 @@ body {
 
 body, input, button, textarea {
   font-size: 1.6rem;
+}
+
+label, input, button, textarea {
   font-family: var(--ff-open-sans);
+}
+
+h2 {
+  font: var(--heading-md);
 }
