@@ -32,3 +32,38 @@
     background-color: var(--shape-button);
   }
 }
+
+.color-items {
+  margin-block: 1.6rem 2.8rem;
+  justify-content: space-between;
+
+  & .color-container {
+    padding: .6rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    background-color: var(--shape-button);
+
+    & .color-inner {
+      position: relative;
+      width: 2.8rem;
+      height: 2.8rem;
+      border-radius: 50%;
+      
+      & [type="radio"] {
+        all: unset;
+        position: absolute;
+        inset: 0;
+        cursor: pointer;
+      }
+    }
+
+  }
+
+  & .color-container:has(:checked) {
+    outline: 2px solid var(--brand-light);
+  }
+}
