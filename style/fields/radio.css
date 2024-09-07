@@ -67,3 +67,39 @@
     outline: 2px solid var(--brand-light);
   }
 }
+
+.themes {
+  grid-template-columns: repeat(auto-fit, minmax(13.4rem, 1fr));
+}
+
+.theme-wrapper {
+  margin-top: 1.6rem;
+  padding: .4rem .4rem .8rem;
+  width: max-content;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: .8rem;
+
+  border-radius: .8rem;
+  border: 1px solid var(--input-stroke);
+  background-color: var(--shape-button);
+
+  & img {
+    border-radius: .4rem;
+  }
+
+  & [type="radio"] {
+    all: unset;
+    position: absolute;
+    inset: 0; 
+    cursor: pointer;
+  }
+
+  &:has(:checked) {
+    outline: 2px solid var(--brand-light);
+  }
+}

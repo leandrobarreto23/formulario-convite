@@ -10,6 +10,10 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
+.gap-8 {
+  gap: .8rem;
+}
+
 .gap-16 {
   gap: 1.6rem;
 }

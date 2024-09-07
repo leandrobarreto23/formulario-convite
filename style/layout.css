@@ -12,6 +12,16 @@
   overflow: hidden;
 }
 
+main {
+  overflow: auto;
+
+  &::-webkit-scrollbar { 
+    display: none;
+  }
+}
+
+
+
 aside {
   padding: 3.2rem;
   border-radius: 1.2rem;

@@ -76,3 +76,7 @@ label, input, button, textarea {
 h2 {
   font: var(--heading-md);
 }
+
+img {
+  max-width: 100%;
+}
