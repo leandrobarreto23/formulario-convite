@@ -69,11 +69,11 @@
 }
 
 .themes {
+  margin-top: 1.6rem;
   grid-template-columns: repeat(auto-fit, minmax(13.4rem, 1fr));
 }
 
 .theme-wrapper {
-  margin-top: 1.6rem;
   padding: .4rem .4rem .8rem;
   width: max-content;
 
